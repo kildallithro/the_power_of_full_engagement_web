@@ -1,8 +1,8 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { Dashboard } from './pages/Dashboard';
-import { CheckIn } from './pages/CheckIn';
-import { History } from './pages/History';
+import { Dashboard } from '@/pages/Dashboard';
+import { CheckIn } from '@/pages/CheckIn';
+import { History } from '@/pages/History';
 
 const App: React.FC = () => {
   return (
